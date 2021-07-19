@@ -25,7 +25,7 @@ body{
   padding:3%;
   display:flex; /* display: flex set*/
   flex-direction: column;
-  justify-content: space-between;
+ position: relative;
 }
 
 
@@ -51,6 +51,8 @@ button{
   border-style: solid;
   border-color:white;
   font-size: 0.8rem;
+  position: absolute;
+  bottom: 10%;
   
 }
 
@@ -118,6 +120,8 @@ button:hover{
   }
   
   button{
+   width:auto;
+    position:static;
    margin-top:40%;
   }
 
