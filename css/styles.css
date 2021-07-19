@@ -51,7 +51,7 @@ button{
   border-style: solid;
   border-color:white;
   font-size: 0.8rem;
-  margin-top:40%;
+  
 }
 
 button:hover{
@@ -115,6 +115,10 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  
+  button{
+   margin-top:40%;
   }
 
   .items{
