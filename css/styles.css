@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
@@ -156,3 +157,161 @@ button:hover{
   }
 
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+.attribution { font-size: 1rem; font-family: 'Big Shoulders Display', cursive; text-align: center; }
+.attribution a { color: hsl(31, 77%, 52%); }
+
+body{
+  margin:0px;
+  
+  background-color: hsl(0, 0%, 95%) ;
+  
+  font-size: 15px; /* font size changed */
+
+}
+
+main{
+  width: 98vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.items{
+  width: 15vw;
+  height: 45vh;
+  padding:3%;
+  display:flex; /* display: flex set*/
+  flex-direction: column;
+ position: relative;
+}
+
+
+
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  line-height: 1.5rem;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 0;
+}
+
+button{
+  width: 50%;
+  padding: 5% 3%;
+  border-radius: 50px;
+  border-style: none;
+  font-family: 'Lexend Deca', sans-serif;
+  border-style: solid;
+  border-color:white;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 10%;
+  
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.sedans-btn:active{
+  background-color: hsl(31, 77%, 52%);
+  color:white;
+
+}
+
+
+.sedans-btn{
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs-btn{
+  color: hsl(184, 100%, 22%);
+}
+
+.suvs-btn:active{
+  background-color: hsl(184, 100%, 22%);
+  color:white;
+}
+
+
+.luxury{
+  background-color:hsl(179, 100%, 13%);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.luxury-btn{
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury-btn:active{
+  background-color: hsl(179, 100%, 13%);
+  color:white;
+}
+
+
+
+/* mobile design */
+
+@media only screen and (max-width: 1152px){
+  body{
+    margin-top: 10%;
+    }
+  
+  main{
+     width: 100vw;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  
+  
+  button{
+   width:auto;
+    position:static;
+   margin-top:40%;
+  }
+
+  .items{
+    width: 65vw;
+    height:auto;
+    padding: 10%;
+  }
+
+  .sedans{
+    border-radius: 20px 20px 0 0;
+  }
+
+  .luxury{
+    border-radius: 0 0 20px 20px;
+  }
+
+  .attribution{
+    position:static;
+  }
+
+}
+>>>>>>> 896f5afd54f24368d35e35e8a8f086688f13cf94
